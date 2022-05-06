@@ -1,0 +1,13 @@
+.header {
+  width: 100%;
+  background-color: gray;
+  margin: 0 auto;
+  grid-area: h;
+  &__img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 8px;
+    padding-left: 15px;
+  }
+}

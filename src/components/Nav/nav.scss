@@ -1,0 +1,19 @@
+.nav {
+  background-color: green;
+  grid-area: n;
+  &__menu {
+    display: block;
+    text-decoration: none;
+  }
+  &__item {
+    list-style: none;
+  }
+  &__link {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+  }
+  &__item + &__item {
+    margin-top: 50px;
+  }
+}
